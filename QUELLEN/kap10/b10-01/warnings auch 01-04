@@ -1,0 +1,12 @@
+B10-01.C: In function ‘int main()’:
+B10-01.C:50:72: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int*’ [-Wformat=]
+         printf("\ntestfeld[%1d]   %6d%10d",i, testfeld[i], &testfeld[i]);
+                                                                        ^
+B10-01.C:51:44: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int*’ [-Wformat=]
+     printf("\ni             %6d%10d", i, &i);
+                                            ^
+B10-01.C:52:46: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘float*’ [-Wformat=]
+     printf("\nx             %6.2f%10d", x, &x);
+                                              ^
+B10-01.C:53:48: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘float*’ [-Wformat=]
+     printf("\ny             %6.2f%10d\n", y, &y);

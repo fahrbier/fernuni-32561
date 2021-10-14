@@ -1,0 +1,4 @@
+Es ist zu prüfen, ob die Aufgabenstellung noch so gültig ist:
+gets_s gibt es nur für MSVC
+gets ist unsicher
+fgets übernummt auch '\n'-Steuerzeichen. 

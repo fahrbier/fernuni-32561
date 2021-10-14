@@ -1,0 +1,5 @@
+all:
+	+$(MAKE) -C kap01
+	+$(MAKE) -C kap02
+clean:
+	+$(MAKE) -C kap01 clean

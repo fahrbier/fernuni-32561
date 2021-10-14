@@ -1,0 +1,6 @@
+B10-10.C: In function ‘int main()’:
+B10-10.C:60:36: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     strcpy1(ziel_string, "kopieren");
+                                    ^
+B10-10.C:73:13: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+     str_zgr = "Guten Morgen";            /* Zuweisung eines konstanten Strings
